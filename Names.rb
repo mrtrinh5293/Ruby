@@ -5,4 +5,11 @@ d = {first_name: "James", last_name: "Smith"}
 e = {first_name: "Jennifer", last_name: "Smith"}
 names = [a, b, c, d, e]
 
-puts a
+
+
+puts "You have #{names.length} names in the 'names' array."
+
+def namename input
+  input.each {|name| puts "The name is #{name[:first_name]} #{name[:last_name]}"}
+end
+namename names
