@@ -90,5 +90,11 @@ end
 # Shifting the Values in the Array
 # Given any array x, say [1, 5, 10, 7, -2], create an algorithm that shifts each number by one to the front. For example, when the program is done, an x of [1, 5, 10, 7, -2] should become [5, 10, 7, -2, 0].
 
+<<<<<<< HEAD
 # Number to String
 # Write a program that takes an array of numbers and replaces any negative number with the string 'Dojo'. For example, if array x is initially [-1, -3, 2] after your program is done that array should be ['Dojo', 'Dojo', 2].
+=======
+puts guess_number 25
+puts guess_number 100
+puts guess_number 0
+>>>>>>> 3ac53f50382277a27589499090b5698443904a3e
