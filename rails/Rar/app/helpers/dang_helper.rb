@@ -1,0 +1,2 @@
+module DangHelper
+end
