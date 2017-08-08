@@ -1,0 +1,14 @@
+<h1>
+List 3 Dojos
+</h1>
+<% @dojos.each do |dojo| %>
+<table>
+    <tr>
+        <td><%= dojo.brand %></td>
+        <td><%= dojo.city %></td>
+        <td><%= dojo.street %></td>
+        <td><%= dojo.state %></td>
+    </tr>
+</table>
+    
+<% end %>
